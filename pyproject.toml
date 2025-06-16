@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fast-discordoauth2-api"
+version = "0.1.0"
+description = "FastAPI extension for Discord OAuth2 authentication"
+authors = [
+  { name="noxzion", email="negroid2281488ilikrilex@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["fastapi", "discord", "oauth2", "authentication"]
+license = { text = "MIT" }
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Framework :: FastAPI",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+
+dependencies = [
+  "fastapi>=0.70",
+  "httpx>=0.22",
+  "pydantic>=1.8",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/fast-discordoauth2-api"
+"Repository" = "https://github.com/yourusername/fast-discordoauth2-api"
